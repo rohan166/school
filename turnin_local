@@ -8,4 +8,4 @@ cd ~/Desktop
 
 scp -r $1 cs11fih@ieng6.ucsd.edu:~
 
-echo "y" | ssh cs11fih@ieng6.ucsd.edu /home/linux/ieng6/cs11f/public/bin/turnin $1
+echo -e "y\ny" | ssh cs11fih@ieng6.ucsd.edu /home/linux/ieng6/cs11f/public/bin/turnin $1
