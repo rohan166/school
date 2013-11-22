@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## cd to the directory on your computer where the pa folders are
+
+## Replace with your cs11fXX login id
+
+scp -r $1 cs11fih@ieng6.ucsd.edu:~
+
+echo "y" | ssh cs11fih@ieng6.ucsd.edu /home/linux/ieng6/cs11f/public/bin/turnin $1
